@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["George Sun"]
   spec.email         = ["sunwinner3@gmail.com"]
   spec.summary       = %q{Query books info from www.it-ebooks.info.}
-  spec.description   = %q{Query books info from www.it-ebooks.info.}
+  spec.description   = %q{Query books info from www.it-ebooks.info, with output directly into console.}
   spec.homepage      = ""
   spec.license       = "MIT"
 

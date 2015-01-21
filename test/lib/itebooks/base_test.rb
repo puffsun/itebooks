@@ -28,7 +28,7 @@ describe Itebooks::Base do
     end
 
     it "must return parsed result for successful search" do
-      result = subject.search_and_parse("mysql")
+      result = subject.search_and_print("mysql")
       result.must_be_instance_of(Hash)
       result['Books'].must_be_instance_of(Array)
     end
