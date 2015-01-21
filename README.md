@@ -21,8 +21,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-  require ‘itebooks’
-  Itebooks::Base.search(“mysql”)
+  require 'itebooks'
+  Itebooks::Base.search('mysql')
 ```
 
 ## Contributing
