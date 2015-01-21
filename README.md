@@ -1,6 +1,6 @@
 # Itebooks
 
-TODO: Write a gem description
+A really simple gem to query it ebooks info from www.it-ebooks.info, the api is provided by the website.
 
 ## Installation
 
@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+  require ‘itebooks’
+  Itebooks::Base.search(“mysql”)
+```
 
 ## Contributing
 
